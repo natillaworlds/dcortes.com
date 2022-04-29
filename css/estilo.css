@@ -188,14 +188,15 @@ button:hover{
 }
 @media screen and (max-width: 1061px){
 	#logo{
+		left: 8em;
 		top: 20em;
-		width: 10em;
+		width: 20em;
 	}
 }
 @media screen and (max-width: 1024px){
 	#logo{
 		top: 20em;
-		width: 10em;
+		
 	}
 }
 @media screen and (max-width: 900px){
