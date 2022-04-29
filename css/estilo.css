@@ -196,20 +196,20 @@ button:hover{
 @media screen and (max-width: 1024px){
 	#logo{
 		top: 20em;
-		left: 30em;
+		width: 15em;
 	}
 }
 @media screen and (max-width: 900px){
 	#logo{
-		top: 23em;
-		left: 18em;
+		top: 20em;
 		width: 15em;
 	}
 }
 @media screen and (max-width: 600px){
 	#logo{
 		top: 23em;
-		width: 8em;
+		width: 15em;
+		left: 4em;
 	}
 }
 .cabecera{
