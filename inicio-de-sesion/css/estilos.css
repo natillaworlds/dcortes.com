@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 13px;
+}
+body{
+	background-image: url("https://i.pinimg.com/originals/25/ad/db/25addb5017030ff912e46969fbaef529.gif");
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+}
+header h1{
+	text-align: center;
+	font-size: 3em;
+	background: white;
+
+}
+header img{
+	position: relative;
+	bottom: 8.5em;
+	margin-top: 0;
+	height: 15em;
+	width: 15em;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.container{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	bottom: 15em;
+}
+.form-box{
+	width: 370px;
+	height: 500px;
+	position: relative;
+	margin: 6% auto;
+	background-color: #fff;
+	padding: 5px;
+	border-radius: 10px;
+	overflow: hidden;
+
+}
+.button-box{
+	width: 240px;
+	margin: 30px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px lightblue;
+
+}
+.toggle-btn{
+	padding: 10px 22px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+
+
+}
+#elegir{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 120px;
+	height: 100%;
+	background: linear-gradient(to right,rgba(0, 0, 255, 0.5),rgba(0, 255, 0, 0.5));
+	border-radius: 30px;
+	transition: 0.8s;
+}
+#redes.sociales{
+	margin: 30px auto;
+	text-align: center;
+	cursor: pointer;
+}
+#redes-sociales img{
+	width: 30px;
+	margin: 0 12px;
+	box-shadow: 0 0 20px 9px #fff;
+	cursor: pointer;
+	border-radius: 50%;
+}
+.input-group{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: 0.8s;
+}
+#input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 2px solid lightgreen;
+}
+#sumbit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right,rgba(0, 0, 255, 0.5),rgba(0, 255, 0, 0.5));
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+#check-box{
+	margin: 30px 10px 30px 0;
+
+}
+span{
+	font-size: 17px;
+	bottom: 64px;
+	position: absolute;
+}
+#login{
+	left: 50px;
+}
+#register{
+	left: 450px;
+}

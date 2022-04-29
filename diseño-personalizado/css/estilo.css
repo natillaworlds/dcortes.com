@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Zen Antique', serif;
+	font-size: 1.01em;
+}
+
+body{
+	min-height: 100vh;
+	background: linear-gradient(lightblue, lightgreen)
+}
+header{
+	background-image: url(../img/portada.jpg);
+	background-size: 20em 20em;
+	margin-bottom: 1em;
+	height: 20em;
+}
+#boton{
+	position: relative;
+	top: 10em;
+	left: 33em;
+
+}
+header button{
+	position: relative;
+	bottom: 1.25em;
+	right: 1.3em;
+	width: 8em;
+	height: 2em;
+	background-color: black;
+	border-radius: 10.938em;
+	color: white;
+	font-size: 1.875em;
+}
+button:hover{
+	background-color: lightgreen;
+	color: black;
+}
+
+
+#logo{
+	position: relative;
+	right: 1em;
+	float: right;
+	width: 12.5em;
+	
+
+}
+#cabecera{
+	position: relative;
+	bottom: 3.125em;
+	left: 1.563em;
+	font-family: Arial, Helvetica, sans-serif;
+	float: left;
+	
+}
+ul{
+	list-style: none;
+	position: relative;
+}
+
+li ul{
+	list-style: none;
+	min-width: 10em;
+}
+
+#lista1 li a{
+	background-color: #66c00b;
+	color: black;
+	text-decoration: none;
+	padding: 0.625em 5em;
+	display: block;
+	font-weight: bold;
+}
+
+#lista1 li a:hover{
+	background-color: #419f00;
+}
+
+#lista1 > li{
+	float: left;	
+
+}
+
+#lista1 li ul{
+	display: none;
+	position: absolute;
+}
+
+#lista1 li:hover > ul{
+	display: inline-block;
+}
+
+#lista1 li ul li{
+	position: relative;
+}
+article{
+	text-align: center;
+	font-size: 1.5em;
+}

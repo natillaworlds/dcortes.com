@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>D'Cortés</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="icon"  href="img/logofinal.ico">
+	<meta charset="utf-8">
+</head>
+<body>
+	<header>
+		<span class="aside" id="aside">
+			<img src="img/aside2.png" alt="botón para desplegar la barra lateral">
+		</span>
+		<h1>Diseños gráficos D'cortés</h1>
+		
+		
+		<img id="logo" src="img/logofinal.png" alt="Logo de la empresa">
+		
+
+		<nav class="cabecera">
+			<ul class="lista1">
+				<li><a href="Index.html">Inicio</a>
+					<ul>
+						<li class="navegacion_oculta1">
+							<!-- el incio de sesión y registro debe ir linkeado a una base de datos y no sé si es de pago-->
+							<!-- <a href="#">Inicio de sesión</a> -->
+							<a href="inicio-de-sesion/sesion.html">Inicio de sesión</a>
+							<a href="inicio-de-sesion/sesion.html">Regístrate</a>
+						</li>
+					</ul>
+				</li>
+
+				<li><a href="contacto/Contacto.html">Contacto</a>
+					<ul>
+						<li class="navegacion_oculta2">
+							<a href="mailto:ilustraciongraficadcortes@gmail.com">Correo</a>
+						</li>
+					</ul>
+				</li>
+				<li><a href="sublimacion/Sublimación.html">Sublimación</a>
+					<ul>
+						<li class="navegacion_oculta3">
+							<a href="sublimacion/Sublimación.html">Mascarillas</a>
+							<a href="sublimacion/Sublimación.html">Camisetas</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="diseño-personalizado/Diseño-personalizado.html">Diseños</a>
+					<ul>
+						<li class="navegacion_oculta4">
+							<a href="diseño-personalizado/Diseño-personalizado.html">Logos</a>
+							<a href="diseño-personalizado/Diseño-personalizado.html">Banners</a>
+							<a href="diseño-personalizado/Diseño-personalizado.html">Diseño personalizado</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Asociados</a>
+					<ul>
+						<li class="navegacion_oculta5">
+							<a href="natiworlds/index.html" target="_blank">Natiworlds</a>
+						</li>
+					</ul>
+				</li>
+			</ul> 
+		</nav>
+		
+	</header>
+
+	<div id="sidebar">
+		
+		<nav class="cabecera1">
+			<ul class="lista2">
+				<li class="navegacion"><a href="Index.html">Inicio</a>
+					<ul>
+						<li class="subnavegacion">
+							<!-- el incio de sesión y registro debe ir linkeado a una base de datos y no sé si es de pago-->
+							<!-- <a href="#">Inicio de sesión</a> -->
+							<a href="inicio-de-sesion/sesion.html">Inicio de sesión</a>
+							<br>
+							<a href="inicio-de-sesion/sesion.html">Regístrate</a>
+						</li>
+					</ul>
+				</li>
+
+				<li class="navegacion"><a href="contacto/Contacto.html">Contacto</a>
+					<ul>
+						<li class="subnavegacion">
+							<a href="mailto:ilustraciongraficadcortes@gmail.com">Correo</a>
+						</li>
+					</ul>
+				</li>
+				<li class="navegacion"><a href="sublimacion/Sublimación.html">Sublimación</a>
+					<ul>
+						<li class="subnavegacion">
+							<a href="sublimacion/Sublimación.html">Mascarillas</a>
+							<br>
+							<a href="sublimacion/Sublimación.html">Camisetas</a>
+						</li>
+					</ul>
+				</li>
+				<li class="navegacion">
+					<a href="diseño-personalizado/Diseño-personalizado.html">Diseños</a>
+					<ul>
+						<li class="subnavegacion">
+							<a href="diseño-personalizado/Diseño-personalizado.html">Logos</a>
+							<br>
+							<a href="diseño-personalizado/Diseño-personalizado.html">Banners</a>
+							<br>
+							<a href="diseño-personalizado/Diseño-personalizado.html">Diseño personalizado</a>
+						</li>
+					</ul>
+				</li>
+			</ul> 
+		</nav>
+	</div>
+	<div id="form-contacto">
+		<form id="info" action="" method="for" action="mailto:ilustraciongraficadcortes@gmail.com">
+			<label>Nombre completo</label><br>
+			<input type="text" id="nombre" placeholder="Nombre completo"><br><br>
+
+			<label>Número de contacto</label><br>
+			<input type="tel" name="numero" placeholder="Número de contacto"><br><br>
+
+			<label>Correo electrónico</label><br>
+			<input type="email" id="correo" placeholder="Escríbe tu correo"> <br>
+			<br>
+			<textarea name="parrafo" cols="50" rows="10" maxlength="1000" placeholder="Escribe aquí tu mensaje"></textarea>
+			<br>
+			<input type="file" name="archivo" placeholder="Suba aquí su archivo">
+			<button type="sumbit" value="Enviar" name="Enviar">Enviar</button>
+
+
+		</form>
+		
+	</div>
+	<footer>
+		<h2>Número de teléfono ➡ +34 634 16 37 53</h2>
+		<span></span>
+
+	</footer>
+	<script src="js/codigo.js"></script>
+</body>
+</html>
